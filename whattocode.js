@@ -1,0 +1,3 @@
+var text = ["A Calculator!","A The Snake Game!","A Clone To This Website!","A Text Editor!", "A Todo List Program!", "A Discord Bot!", "A Programming Language!", "A Chat App!", "A Cryptocurrency!", "A Weather API!", "A Encryption Program!", "A Minecraft Mod!", "A Network Traffic Analyser", "A Online Text Editor!", "A Personal Website!", "A Linux File Server!", "A Python Web Scraper!"];
+var randtext = Math.floor(Math.random()*17);
+document.getElementById("coder").innerHTML = text[randtext];
